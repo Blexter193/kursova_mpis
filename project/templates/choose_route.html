@@ -1,0 +1,23 @@
+{% extends "__layout.html" %}
+{% block layout %}
+<div class="block" style="margin: 15% 25%;">
+    <h2>Оберіть Маршрут</h2>
+    <form id="routeForm">
+        <div class="form-group">
+            <label for="tour">Ваш маршрут:</label>
+            <select class="form-control" id="tour" name="tour">
+                {% for tour in tours %}
+                <option value="{{ tour.id }}">{{ tour.origin }} - {{ tour.destination }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="redirectToPassport()">Підтвердити</button>
+    </form>
+</div>
+<script>
+    function redirectToPassport() {
+        const tourId = document.getElementById('tour').value;
+        window.location.href = `/passport?tour=${tourId}`;
+    }
+</script>
+{% endblock %}

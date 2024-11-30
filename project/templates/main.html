@@ -1,0 +1,52 @@
+{% extends "__layout.html" %}
+{% block layout %}
+<div class="block" style="margin: 25% 25%; background-image: url('https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png'); background-size: cover; background-position: center; padding: 10px; border-radius: 10px;">
+  <h2 class="text-center">Увійти або зареєструватись</h2>
+  <div class="input-group mb-3">
+    <input id="username" type="text" class="form-control" placeholder="Ім'я користувача" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <input id="password" type="password" class="form-control" placeholder="Пароль" aria-label="Password" aria-describedby="basic-addon2">
+  </div>
+  <div class="input-group-append mb-3">
+    <button onclick="login()" class="btn btn-primary" type="button">Увійти</button>
+  </div>
+  <div class="input-group-append">
+    <button onclick="register()" class="btn btn-secondary" type="button">Зареєструватись</button>
+  </div>
+</div>
+<script>
+  function login() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    fetch('/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username, password })
+    }).then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          window.location.href = `/booking?tour=${data.tourId}`;
+        } else {
+          alert('Login failed');
+        }
+      });
+  }
+
+  function register() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    fetch('/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username, password })
+    }).then(response => {
+      if (response.ok) {
+        window.location.href = '/choose_route?tour=${data.tourId}';
+      } else {
+        alert('Registration failed');
+      }
+    });
+  }
+</script>
+{% endblock %}

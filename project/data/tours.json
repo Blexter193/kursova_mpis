@@ -1,0 +1,26 @@
+[
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "origin": "Lviv",
+        "destination": "Kyiv",
+        "departureTime": "2024-11-29 10:00:00",
+        "arrivalTime": "2024-11-29 12:00:00",
+        "price": "100 USD"
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735492",
+        "origin": "London",
+        "destination": "Paris",
+        "departureTime": "2024-12-01 14:00:00",
+        "arrivalTime": "2024-12-01 16:00:00",
+        "price": "200 USD"
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735490",
+        "origin": "New York",
+        "destination": "Madrid",
+        "departureTime": "2024-12-06 15:00:00",
+        "arrivalTime": "2024-12-06 22:00:00",
+        "price": "500 USD"
+    }
+]

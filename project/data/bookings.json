@@ -1,0 +1,176 @@
+[
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "tourId": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "travellerId": "traveller1",
+        "isRegistered": true,
+        "seat": 12
+    },
+    {
+        "id": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "tourId": "6f9b4ff6-5e6f-4c42-991f-d88e98735495",
+        "travellerId": "traveller2",
+        "isRegistered": true,
+        "seat": 30
+    },
+    {
+        "id": "4cf20d20-fcab-4421-8f41-17ad94a8772b",
+        "travellerId": "495b142a-a4ed-40ec-9102-cfe731e7d1f2",
+        "tourId": null,
+        "isRegistered": false
+    },
+    {
+        "id": "6ea9ab61-8303-4297-841b-f28bcedc24dd",
+        "travellerId": "d3e4368f-b4e7-4217-a3ba-d56e2e5651bb",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "86dcf930-20a0-40ed-9e06-09d6d39e7a92",
+        "travellerId": "bdd8b424-3da4-48e6-af46-90682f04831a",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "03f944c4-5468-492d-81af-d2311292c039",
+        "travellerId": "68253558-810c-4096-b605-f73b5426d5da",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "56e00ea2-974c-4730-a445-c1aa8d81d73c",
+        "travellerId": "79c1d630-284c-4ba2-8511-f3514d7bea90",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "deec58a6-7bcb-4c91-8876-9c24293b483e",
+        "travellerId": "4189a08e-6a1c-479d-9260-f166b1941e49",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "a30c35f1-2d0a-4a74-b07d-7d852155243f",
+        "travellerId": "1143e9b7-b1c7-4f3b-b6e4-f56ddd9ae4c8",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "dd5c3adc-2cd7-48c9-b5f8-b048917dba01",
+        "travellerId": "14d1e781-f638-4df0-a9b5-7711803ea421",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "86f83427-fae4-4e84-84d6-c5b01f99eda6",
+        "travellerId": "0537ea12-7080-440f-a744-1f4f69b61bbb",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "fa806937-a22b-48b0-b393-16aadc777bf7",
+        "travellerId": "40607ca6-62c2-43e8-9ffb-56137986df2e",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "faf819e8-f0a3-4fd8-a9e5-21f45a95bedf",
+        "travellerId": "f1716222-b9c5-4952-b529-7afc048505a6",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "def6bb09-1fbd-46d4-adbb-e8c8e387ee58",
+        "travellerId": "f02d3d84-4f62-4172-8daf-b925c1fd50fb",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "13c01256-0184-42cd-a737-0c845ef083a0",
+        "travellerId": "11a2ae9f-ae19-4838-beaf-3d0b668a610e",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "fa8a5022-a1e2-4c07-a202-1a92fc6a8991",
+        "travellerId": "b9a6ba54-e4fe-4e6f-bc71-e15b5035e41d",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "71edcfbd-ea18-499c-b8c0-e12206c8bfbe",
+        "travellerId": "2c875c8e-a0cf-4b40-a82e-ef8801e726d8",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "4ecaebb1-8577-46b7-a278-262a5ea99f89",
+        "travellerId": "e7fb67fb-3d45-4796-b3de-fe6b92af8c44",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "ea1ac1f3-a317-4e20-af6f-386c1dfd2853",
+        "travellerId": "67274788-be7b-4a39-bc59-e19631d526e0",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "efb49222-3659-4ea8-a1ef-9ea26ea9483e",
+        "travellerId": "0bdc8006-c36e-4a6b-9aff-e502ea814a59",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "20bd8ce2-5248-4c97-a47d-63d8ca5aedc8",
+        "travellerId": "d20f518d-c700-4ab0-9108-77f8ca6840c5",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "76063ddb-7b32-4629-8be6-f27f6741494c",
+        "travellerId": "96c364f9-f6ec-41cb-be96-36167dfbe34d",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "0d09f8ea-faf3-4327-ab17-87afea41df6a",
+        "travellerId": "afd21ca9-54b8-49cf-bac8-cfb91279ee55",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "f44f1c11-b037-43b6-936c-c05175d6b879",
+        "travellerId": "c30e8a71-c544-41b5-bfc7-6fbb29eed24e",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    },
+    {
+        "id": "85b967f7-ab3b-4712-89f9-2562bd45b70a",
+        "travellerId": "7f5ab0b6-f576-44ba-89a4-c661233861f7",
+        "tourId": null,
+        "isRegistered": false,
+        "seat": null
+    }
+]
